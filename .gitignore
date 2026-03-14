@@ -1,0 +1,12 @@
+# Temporary editor files
+*~
+*.swp
+*.swo
+*.bak
+
+# Log files
+*.log
+
+# Cache files
+.cache/
+tmp/
