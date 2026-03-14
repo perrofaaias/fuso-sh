@@ -11,12 +11,12 @@ All translations by Google Translate.
 FUSO is a simple program, so downloading and extracting is all that's needed. But there is a minor dependency: a [Nerd Font](https://www.nerdfonts.com/font-downloads).
 
 1. Clone the repository:
-  ```sh
-  git clone https://github.com/perrofaaias/fuso-sh.git
-  cd fuso-sh
-  ```
+   ```sh
+   git clone https://github.com/perrofaaias/fuso-sh.git
+   cd fuso-sh
+   ```
 2. Complete the initial setup:
-  ```sh
-  bash bin/fuso.sh init
-  ```
+   ```sh
+   bash bin/fuso.sh init
+   ```
 3. All set!
