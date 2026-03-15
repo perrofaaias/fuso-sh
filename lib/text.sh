@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source "$FUSO_HOME/lib/util.sh"
-
 # text(key, ...)
 # --------------
 # Returns a string based on the chosen locale. Returns [key] unchanged if the
