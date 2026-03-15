@@ -20,10 +20,10 @@ text() {
   printf "$message" ${arguments[@]:1}
 }
 
-# visu(string)
-# ------------
-# Returns the NUMBER of characters outside the PUA range.
-visu() {
+# edible(string)
+# --------------
+# Returns the number of characters outside the PUA range.
+edible() {
   local string="$1"
   local number=0
   local count

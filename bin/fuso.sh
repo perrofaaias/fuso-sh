@@ -2,7 +2,7 @@
 
 FUSO_VERSION="1.0"
 FUSO_LANGUAGE="pt"
-FUSO_HOME="$HOME/HOME/fuso"
+FUSO_HOME="$HOME/fuso-sh"
 
 source "$FUSO_HOME/lib/text.sh"
 source "$FUSO_HOME/lib/layt.sh"

@@ -47,9 +47,9 @@ container() {
   local rows=$#
 
   for line in "${lines[@]}"; do
-    columns=$(maximum $columns $(visu "$line"))
+    columns=$(maximum $columns $(edible "$line"))
   done
-
+  
   local border=""
  
   for (( row = 1; row <= rows + 2; row++ )); do
@@ -70,7 +70,7 @@ container() {
   move 1 0
  
   for line in "${lines[@]}"; do
-    local length=$(visu "$line")
+    local length=$(edible "$line")
     local padding=$(( columns - length ))
 
     move 0 $(( padding + 2 ))
